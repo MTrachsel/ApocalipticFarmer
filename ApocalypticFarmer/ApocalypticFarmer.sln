@@ -7,18 +7,34 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApocalypticFarmer", "Apocal
 EndProject
 Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "ApocalypticFarmerContent", "ApocalypticFarmer\ApocalypticFarmerContent\ApocalypticFarmerContent.contentproj", "{4BB0070A-715E-4C00-8ABD-3C5EC0A4C1D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApocalypticFarmer.Test", "ApocalypticFarmer.Test\ApocalypticFarmer.Test.csproj", "{11D045D1-056C-4E3E-979B-D1E0B2D9F9CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0381AE5E-D6FC-4C07-A627-43F78BF135B0}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{0381AE5E-D6FC-4C07-A627-43F78BF135B0}.Debug|x86.ActiveCfg = Debug|x86
 		{0381AE5E-D6FC-4C07-A627-43F78BF135B0}.Debug|x86.Build.0 = Debug|x86
+		{0381AE5E-D6FC-4C07-A627-43F78BF135B0}.Release|Any CPU.ActiveCfg = Release|x86
 		{0381AE5E-D6FC-4C07-A627-43F78BF135B0}.Release|x86.ActiveCfg = Release|x86
 		{0381AE5E-D6FC-4C07-A627-43F78BF135B0}.Release|x86.Build.0 = Release|x86
+		{4BB0070A-715E-4C00-8ABD-3C5EC0A4C1D2}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{4BB0070A-715E-4C00-8ABD-3C5EC0A4C1D2}.Debug|x86.ActiveCfg = Debug|x86
+		{4BB0070A-715E-4C00-8ABD-3C5EC0A4C1D2}.Release|Any CPU.ActiveCfg = Release|x86
 		{4BB0070A-715E-4C00-8ABD-3C5EC0A4C1D2}.Release|x86.ActiveCfg = Release|x86
+		{11D045D1-056C-4E3E-979B-D1E0B2D9F9CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11D045D1-056C-4E3E-979B-D1E0B2D9F9CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11D045D1-056C-4E3E-979B-D1E0B2D9F9CE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{11D045D1-056C-4E3E-979B-D1E0B2D9F9CE}.Debug|x86.Build.0 = Debug|Any CPU
+		{11D045D1-056C-4E3E-979B-D1E0B2D9F9CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11D045D1-056C-4E3E-979B-D1E0B2D9F9CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11D045D1-056C-4E3E-979B-D1E0B2D9F9CE}.Release|x86.ActiveCfg = Release|Any CPU
+		{11D045D1-056C-4E3E-979B-D1E0B2D9F9CE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
